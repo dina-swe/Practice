@@ -53,7 +53,7 @@ const found = jwt.verify(result,'secret message',{expiresIn:'1d'})
 
 console.log(found)
 
-
+console.log('Everybody is watching')
 
 app.post('/data', async(req,res)=>{
 
